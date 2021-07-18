@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".food_loukoumades">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:src="@drawable/loukoumades"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/web_search_image"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/call_icon_image"
+                android:adjustViewBounds="true"
+                android:paddingTop="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/web_search" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:text="It is a truth universally acknowledged, that every man (or woman) in possession of a good fortune, must be in want of sugar and deep-fried dough. There is something about this heady combination that appears to be globally irresistible. The Greek proof for this is loukoumades, little deep fried doughnuts doused in syrup or honey and sprinkled in cinnamon or sugar that taste as good as they sound. Unlike their sister-desserts around the world, however—beignets in France, churros in Spain and jalebi in India, and (dare I say it?) doughnuts—loukoumades hail back to Greek antiquity. First mentioned by different names by either Callimachus of Cirene, or even better Archestratus of Sicily, whose humorous poems advised ancient readers on where to find the best food in the Mediterranean, the dessert evolved in different variations through the Byzantine and Ottoman empires. It came to be named lokma in Arabic and Turkish, and loukuma or loukoumades in Greek.  Traditionally, loukoumades are a celebratory treat. Mainly eaten at weddings, panigiria (traditional church festivals celebrating Orthodox saints) and on special occasions, they are usually served as a portion of anything from 4 to 6 pieces of deep-fried dough, then doused in honey and sprinkled in cinnamon. Best eaten straight away when they are piping hot. "
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

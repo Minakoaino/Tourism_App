@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Visit Crete</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="HistorialPlaces">Historical Places</string>
+    <string name="FoodStreets">Food</string>
+    <string name="ShoppingPlaces">Beaches</string>
+    <string name="Hotels">Hotels</string>
+
+
+</resources>

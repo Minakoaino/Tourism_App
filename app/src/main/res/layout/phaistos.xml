@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phaistos">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:src="@drawable/faistos"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/call_icon_image"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/phone_call" />
+
+            <ImageView
+                android:id="@+id/web_search_image"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/call_icon_image"
+                android:src="@drawable/web_search"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:paddingTop="10dp"/>
+
+            <ImageView
+                android:id="@+id/google_map_search_image"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:paddingTop="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/map_icon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+                android:text="Phaistos Minoan Palace "
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:text='Phaistos (Greek: Φαιστός, pronounced [feˈstos]; Ancient Greek: Φαιστός, pronounced [pʰai̯stós], also transliterated as Phaestos, Festos and Latin Phaestus, is a Bronze Age archaeological site at modern Faistos, a municipality in south central Crete. Ancient Phaistos was located about 5.6 km (3.5 mi) east of the Mediterranean Sea and 62 km (39 mi) south of Heraklio, the second largest city of Minoan Crete. The name Phaistos survives from ancient Greek references to a city in Crete of that name at or near the current ruins.  The name is substantiated by the coins of the classical city. They display motifs such as Europa sitting on a bull, Talos with wings, Heracles without beard and being crowned, and Zeus in the form of a naked youth sitting on a tree. On either the obverse or the reverse the name of the city, or its abbreviation, is inscribed, such as ΦΑΙΣ or ΦΑΙΣΤΙ, for Phaistos or Phaistios ("Phaistian" adjective) written either right-to-left or left-to-right.These few dozen coins were acquired by collectors from uncontrolled contexts. They give no information on the location of Phaistos.'
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

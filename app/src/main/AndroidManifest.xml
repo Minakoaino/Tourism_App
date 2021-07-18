@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tourguideapp">
+
+    <uses-permission android:name="android.permission.INTERNET">
+
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".food_moussakas"  android:label="Details"></activity>
+        <activity android:name=".raki" android:label="Details" />
+        <activity android:name=".food_loukoumades" android:label="Details"/>
+        <activity android:name=".food_sarikopitakia" android:label="Details"/>
+        <activity android:name=".foods_dakos" android:label="Details" />
+        <activity android:name=".food_olive_oil" android:label="Details"/>
+        <activity android:name=".Food_pastitsio" android:label="Details"/>
+        <activity android:name=".psychro_cave" android:label="Details"/>
+        <activity android:name=".arkadi" android:label="Details"/>
+        <activity android:name=".heraklion_archaeological_museum" android:label="Details"/>
+        <activity android:name=".spinalonga" android:label="Details"/>
+        <activity android:name=".knossos" android:label="Details"/>
+        <activity android:name=".preveli" android:label="Details"/>
+        <activity android:name=".lasinthi" android:label="Details"/>
+        <activity android:name=".phaistos" android:label="Details"/>
+        <activity android:name=".falassarna" android:label="Details"/>
+        <activity android:name=".elafonisi" android:label="Details"/>
+        <activity android:name=".i_resort" android:label="Details"/>
+        <activity android:name=".royal_blue" android:label="Details"/>
+        <activity android:name=".minoa" android:label="Details"/>
+        <activity android:name=".grecotel_creta" android:label="Details"/>
+        <activity
+            android:name=".radisson_blue"
+            android:label="Details "
+            >
+
+        </activity>
+        <activity android:name=".balos" android:label="Details"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
